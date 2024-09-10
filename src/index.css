@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #163300;
+    --secondary-color:#b2bec3;
+}
+@font-face {
+    font-family: primary-font;
+    src: url(.././public/assets/Fonts/KOMIKAX_.ttf);
+}
+@font-face {
+    font-family: secondary-font;
+    src: url(.././public/assets/Fonts/Poppins-Light.ttf);
+}

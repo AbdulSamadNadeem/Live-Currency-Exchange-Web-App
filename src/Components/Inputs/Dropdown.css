@@ -1,0 +1,32 @@
+.dropdown{
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown > .icon{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+}
+.icon > img{
+    width: 80px;
+    height: 40px;
+    object-fit: cover;
+}
+.options > label > h3{
+   font-family: secondary-font ;;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size:15px;
+}
+.options > select{
+    width: 150px;
+    height: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
